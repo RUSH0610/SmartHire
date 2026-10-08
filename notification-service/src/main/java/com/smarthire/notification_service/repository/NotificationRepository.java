@@ -1,0 +1,22 @@
+package com.smarthire.notification_service.repository;
+
+import com.smarthire.notification_service.model.Notification;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface NotificationRepository
+        extends MongoRepository<Notification, String> {
+
+    List<Notification> findByCandidateIdOrderByCreatedAtDesc(int candidateId);
+
+    List<Notification> findByJobIdOrderByCreatedAtDesc(int jobId);
+
+    List<Notification> findByReadFalse();
+
+    List<Notification> findByCandidateIdAndReadFalse(int candidateId);
+
+    List<Notification> findByJobIdAndReadFalse(int jobId);
+}

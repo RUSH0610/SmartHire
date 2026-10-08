@@ -622,14 +622,13 @@ Notification Created
 
 # 👨‍💻 Author
 
-**Arshdeep Kumar**
+**Rushabh Jain**
 
 Java Backend Developer
 
 ### Connect
 
-- GitHub: https://github.com/Arshdeep-nayan
-- LinkedIn: https://www.linkedin.com/in/arshdeep-kumar/
+- GitHub: https://github.com/RUSH0610
 
 ---
 
